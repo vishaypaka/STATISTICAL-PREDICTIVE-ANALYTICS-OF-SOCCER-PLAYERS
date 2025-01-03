@@ -11,14 +11,14 @@
   <li><strong>Descriptive Statistics:</strong> Key metrics such as mean, median, and correlations are calculated using R.</li>
   <li><strong>Exploratory Data Analysis:</strong> A Tableau dashboard visualizes patterns and insights in the dataset. <a href="https://public.tableau.com/app/profile/jason.rayen/viz/FinalProject-EDA-FifaPlayersDataset/FinalDashboard?publish=yes" target="_blank">View the Tableau Dashboard</a>.</li>
   <li><strong>NoSQL Queries:</strong> MongoDB queries provide advanced insights, including player statistics, contract analysis, and player filtering based on attributes (<code>NoSQL.js</code>).</li>
-  <li><strong>Predictive Modeling:</strong> Models such as Polynomial Regression, PySpark, and ANN are used to predict player ratings with high accuracy (<code>Research Project AIT614 - Final.ipynb</code>).</li>
+  <li><strong>Predictive Modeling:</strong> Models such as Polynomial Regression, PySpark, and ANN are used to predict player ratings with high accuracy (<code>Final_Code_File.ipynb</code>).</li>
 </ol>
 
 <h2>Readme File</h2>
 <p>The repository includes a <code>Readme.txt</code> file that provides step-by-step instructions to run the entire project:</p>
 <ul>
   <li><strong>Loading Dataset:</strong> Upload the datasets onto Databricks using <code>File -> Upload Data to DBFS</code>.</li>
-  <li><strong>Editing Paths:</strong> Update the file paths in the Jupyter notebook (<code>Research Project AIT614 - Final.ipynb</code>) as needed in cells 9, 21, 23, 62, and 63. This step may be optional if shared paths are accessible.</li>
+  <li><strong>Editing Paths:</strong> Update the file paths in the Jupyter notebook (<code>Final_Code_File.ipynb</code>) as needed in cells 9, 21, 23, 62, and 63. This step may be optional if shared paths are accessible.</li>
   <li><strong>Tableau Dashboard:</strong> Access the EDA visualizations through the provided Tableau link.</li>
   <li><strong>NoSQL Setup:</strong> Follow detailed steps for setting up MongoDB, importing data, and running the queries provided in <code>NoSQL.js</code>.</li>
 </ul>
@@ -42,7 +42,7 @@
 <h2>How to Use</h2>
 <ol>
   <li>Load the datasets onto Databricks. Navigate to <code>File -> Upload Data to DBFS</code>.</li>
-  <li>Edit file paths in code cells as necessary, particularly in cells 9, 21, 23, 62, and 63 of the Jupyter notebook (<code>Research Project AIT614 - Final.ipynb</code>).</li>
+  <li>Edit file paths in code cells as necessary, particularly in cells 9, 21, 23, 62, and 63 of the Jupyter notebook (<code>Final_Code_File.ipynb</code>).</li>
   <li>Run the predictive modeling notebook. The runtime is approximately 15 minutes.</li>
   <li>To explore visualizations, open the Tableau dashboard using the link provided.</li>
   <li>For NoSQL queries, set up MongoDB following the detailed instructions in <code>Readme.txt</code>. Import <code>finalfifaplayers.csv</code> to your MongoDB collection and run the queries from <code>NoSQL.js</code>.</li>
